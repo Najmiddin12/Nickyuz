@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Autoday</title>
+    <link rel="stylesheet" href="{% static 'auto/style15.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navigation">
+                <div class="logo">
+                    <a href="#">Nicky uz</a>
+                </div>
+                <div class="navbar-nav">
+                    <a href="#">home</a>
+                    <a href="#autoday">autoday</a>
+                    <a href="#autobattle">autobattle</a>
+                    <a href="#autonews">autonews</a>
+                </div>
+            </div>
+        </div>
+    </nav><!-- End of Navbar-->
+    <div class="banner">
+        <div class="container">
+            <form>
+                <input name="search" type="text" value="{{ search }}" placeholder="find your interest car..." class="search-input">
+                <button type="submit" class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="blog">
+        <div class="container">
+            <div class="title">
+                <h2>Cars</h2>
+            </div>
+            <div class="design-item">
+                <div class="design-img">
+                    {% for autos in auto %}
+                        <a href="{% url 'buyer-detail' pk=autos.pk %}">
+                            <img src="{{ autos.image.url }}">
+                            <p>{{ autos.brand }} {{ autos.model }} </p>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+</body>
+</html>

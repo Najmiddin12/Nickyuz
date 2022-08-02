@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+:root{
+    --Playfair: 'Playfair Display', serif;
+    --Quicksand: 'Quicksand', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --FugazOne: 'Fugaz One', cursive;
+    --dark: #3c393d;
+    --exDark: #2b2b2b;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--Quicksand);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.4;
+    color: var(--dark);
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+/* Header styling start */
+header{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), center/cover no-repeat fixed;
+}
+.navbar{
+    background: var(--exDark);
+    padding: 1.2rem;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation .logo a{
+    color: #fff;
+    font-size: 2rem;
+    display: block;
+    text-decoration: none;
+    font-family: var(--FugazOne);
+    letter-spacing: 1px;
+}
+.navbar-nav{
+    padding: 0.8rem 0 0.2rem 0;
+}
+.navbar-nav a{
+    text-transform: uppercase;
+    font-family: var(--Roboto);
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #ffff;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    transition: opacity 0.5s ease;
+}
+.navbar-nav a:hover{
+    opacity: 0.7;
+    color: #FFFF00;
+}
+
+.blog{
+    background: var(--dark);
+    padding: 10rem 0;
+
+}
+.blog-content{
+    position: relative;
+    top: 4rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 20rem);
+    margin: 2rem 0;
+}
+.title{
+    margin: -7rem 31rem;
+}
+.title h2 {
+    position: relative;
+    color: white;
+    font-size: 3rem;
+    font-family: var(--FugazOne);
+}
+.blog-img{
+    position: relative;
+    top: -5rem;
+    left: -1rem;
+    height: 35rem;
+    width: 35rem;
+}
+.blog-img1{
+    position: relative;
+    top: -2rem;
+    left: 2rem;
+    height: 30rem;
+    width: 30rem;
+}
+.blog-img2{
+    position: relative;
+    top: -5.5rem;
+    left: 1rem;
+    height: 35rem;
+    width: 35rem;
+
+}
+.blog-text{
+    position: relative;
+    top: -19rem;
+    left: 8rem;
+}
+.blog-text p{
+    padding: 0 3.2rem;
+    font-weight: 500;
+    font-size: 1.9rem;
+    opacity: 0.9;
+    color: white;
+
+}
+.blog-icon{
+    position: relative;
+    top: -13rem;
+    left: 18rem;
+}
+.blog-icon span{
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+}
+.blog-icon span1{
+    padding: 5.5rem 0;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+}
+.blog-icon span2{
+    padding: 10rem 0;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+}
+.blog-icon span3{
+    padding: 17rem 0;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+}
+.blog-icon span4{
+    margin: 22rem 0;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.blog-icon span5{
+    margin: 28rem 0;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+}
+.blog-icon span6{
+    margin: 33rem 0;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+}
+.blog-icon span7{
+    margin: 38rem 0;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+}
+.blog-icon span8{
+    margin: 43rem 0;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+}
+.blog-icon span9{
+    margin: 49rem 0;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+}
+.blog-icon span{
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.blog-tex{
+    position: relative;
+    top: -6rem;
+    left: 8rem;
+    margin: -4rem;
+}
+.blog-tex h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+.blog-tex p{
+    padding: 3rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+.blog-tex p1{
+    padding: 4rem 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+.blog-tex h1{
+    margin: 3rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+.blog-tex h2{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+.blog-te{
+    position: relative;
+    top: 0.1rem;
+    left: 8rem;
+    margin: -4rem;
+}
+.blog-te h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+.blog-te p{
+    padding: 3rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+.blog-te p1{
+    padding: 4rem 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+.blog-te h1{
+    margin: 3rem 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+.blog-te h2{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+.blog-button{
+    position: relative;
+    top: -29rem;
+    left: 55rem;
+}
+.blog-button a{
+    font-family: var(--Roboto);
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: dimgrey;
+    position: relative;
+    top: 500px;
+    left: 10rem;
+    padding: .75rem 1.5rem;
+    background: white;
+    transition: all .5s ease;
+}
+
+/* End of blog styling */

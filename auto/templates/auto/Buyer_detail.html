@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Autoday</title>
+    <link rel="stylesheet" href="{% static 'auto/styl4.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navigation">
+                <div class="logo">
+                    <a href="#">Nicky uz</a>
+                </div>
+                <div class="navbar-nav">
+                    <a href="#">home</a>
+                    <a href="#autoday">autoday</a>
+                    <a href="#autobattle">autobattle</a>
+                    <a href="#autonews">autonews</a>
+                </div>
+            </div>
+        </div>
+    </nav><!-- End of Navbar-->
+    <div class="blog">
+            <div class="container">
+                <div class="title">
+                    <h2>Auto Detail</h2>
+                    <p>{{ auto.brand }} {{ auto.model }}</p>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-img">
+                        <img src="{{ auto.image.url }}">
+                    </div>
+                </div>
+                <div class="blog-text">
+                    <div class="blog-button">
+                        <p>Brand: </p>
+                        <p>Model: </p>
+                        <p>Year: </p>
+                        <p>Mileage: </p>
+                        <p>Price: </p>
+                    </div>
+                    <div class="blog-buton">
+                        <p>{{ auto.brand }}</p>
+                        <p>{{ auto.model }}</p>
+                        <p>{{ auto.year }}</p>
+                        <p>{{ auto.mileage }}</p>
+                        <p>{{ auto.price }} $</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</header>
+</body>
+</html>

@@ -1,0 +1,178 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nicky uz</title>
+    <link rel="stylesheet" href="{% static 'auto/style17.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+
+    <!-- Header section start -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navigation">
+                    <div class="logo">
+                        <a href="#">Nicky uz</a>
+                    </div>
+                    <div class="navbar-nav">
+                        <a href="#">home</a>
+                        <a href="#autoday">autoday</a>
+                        <a href="#autobattle">autobattle</a>
+                        <a href="{% url 'autosale-signin' %}" >autosale</a>
+                    </div>
+                </div>
+            </div>
+        </nav> <!-- End of Navbar-->
+    </header>
+    <!-- End of header section -->
+
+    <section class="design" id="autoday">
+        <div class="container">
+            <div class="title">
+                <h2>AUTODAY</h2>
+                <p>BLOG ABOUT CAR</p>
+            </div>
+            <div class="design-content">
+                <div class="design-item">
+                    <div class="design-img">
+                        <img src="{% static 'auto/gentra.png' %}" alt="">
+                        <span>AUTODAY GENTRA</span>
+                    </div>
+                    <div class="design-title">
+                        <p>Tashqi ko`rinish, Ichki ko`rinish, Texnik xususiyatlari
+                        </p>
+                        <a href="{% url "autoday-gentra" %}">Read more</a>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <div class="design-img">
+                        <img src="{% static 'auto/nexia3.png' %}" alt="">
+                        <span>AUTODAY NEXIA</span>
+                    </div>
+                    <div class="design-title">
+                        <p>Tashqi ko`rinish, Ichki ko`rinish, Texnik xususiyatlari</p>
+                        <a href="{% url "autoday-nexia" %}">Read more</a>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <div class="design-img">
+                        <img src="{% static 'auto/malibu2.png' %}" alt="">
+                        <span>AUTODAY MALIBU</span>
+                    </div>
+                    <div class="design-title">
+                        <p>Tashqi ko`rinish, Ichki ko`rinish, Texnik xususiyatlari</p>
+                        <a href="{% url "autoday-malibu" %}">Read more</a>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <div class="design-img">
+                        <img src="{% static 'auto/equinox.png' %}" alt="">
+                        <span>AUTODAY EQUINOX</span>
+                    </div>
+                    <div class="design-title">
+                        <p>Tashqi ko`rinish, Ichki ko`rinish, Texnik xususiyatlari</p>
+                        <a href="{% url "autoday-equinox" %}">Read more</a>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <div class="design-img">
+                        <img src="{% static 'auto/trailblazer.png' %}" alt="">
+                        <span>AUTODAY TRAILBLAZER</span>
+                    </div>
+                    <div class="design-title">
+                        <p>Tashqi ko`rinish, Ichki ko`rinish, Texnik xususiyatlari</p>
+                        <a href="{% url "autoday-trailblazer" %}">Read more</a>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <div class="design-img">
+                        <img src="{% static 'auto/traverse.png' %}" alt="">
+                        <span>AUTODAY TRAVERSE</span>
+                    </div>
+                    <div class="design-title">
+                        <p>Tashqi ko`rinish, Ichki ko`rinish, Texnik xususiyatlari</p>
+                        <a href="{% url "autoday-traverse" %}">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of design section -->
+    <!-- Start of blog section -->
+    <section class="blog" id="autobattle">
+        <div class="container">
+            <div class="title">
+                <h2>AUTOBATTLE</h2>
+                <p>BATTLE BETWEEN CARS</p>
+            </div>
+            <div class="blog-content">
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="{% static 'auto/nexia3.png' %}" alt="">
+                    </div>
+                    <div class="blog-text">
+                        <p>Nexia 3 LT M/T</p>
+                    </div>
+                    <div class="blog-icon">
+                        <span><i class="fas fa-check"></i></span>
+                        <span1><i class="fas fa-times"></i></span1>
+                        <span2><i class="fas fa-check"></i></span2>
+                        <span3><i class="fas fa-times"></i></span3>
+                        <span4><i class="fas fa-times"></i></span4>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-img1">
+                        <img src="{% static 'auto/vs.png' %}" alt="">
+                    </div>
+                    <div class="blog-tex" align="center">
+                        <h3>Old va orqa eshiklar uchun avtomatik ko`tariladigan oynalar</h3>
+                        <p>Orqa xavfsizlik kamarlari</p>
+                        <p1>Havo filtrli konditsioner</p1>
+                        <h1>Bolalar uchun o'rindiqlarni o'rnatish joylari</h1>
+                        <h2>Antiblok tormoz tizimi</h2>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-img2">
+                        <img src="{% static 'auto/gentral.png' %}" alt="">
+                    </div>
+                    <div class="blog-text">
+                        <p>Gentra SX M/T</p>
+                    </div>
+                    <div class="blog-icon">
+                        <span><i class="fas fa-times"></i></span>
+                        <span1><i class="fas fa-check"></i></span1>
+                        <span2><i class="fas fa-check"></i></span2>
+                        <span3><i class="fas fa-check"></i></span3>
+                        <span4><i class="fas fa-check"></i></span4>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-button">
+                        <a href="{% url "nexia3-vs-gentra" %}">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of blog section -->
+
+    <!-- Start of footer section -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+        </div>
+        <span>Auto blog</span>
+    </footer>
+    <!-- End of footer section -->
+
+</body>
+</html>

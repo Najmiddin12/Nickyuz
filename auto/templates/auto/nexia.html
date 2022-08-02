@@ -1,0 +1,260 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Autoday</title>
+    <link rel="stylesheet" href="{% static 'auto/style7.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navigation">
+                    <div class="logo">
+                        <a href="#">Nicky uz</a>
+                    </div>
+                    <div class="navbar-nav">
+                        <a href="#">home</a>
+                        <a href="#autoday">autoday</a>
+                        <a href="#autobattle">autobattle</a>
+                        <a href="#autonews">autonews</a>
+                    </div>
+                </div>
+            </div>
+        </nav><!-- End of Navbar-->
+        <div class="blog">
+            <div class="contain">
+                <div class="title">
+                    <h2>AUTODAY</h2>
+                    <p>NEXIA 3</p>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-img">
+                        <img src={% static 'auto/nexia3.png' %} alt="">
+                    </div>
+                </div>
+                <div class="blog-button">
+                    <a href="#tashqi">TASHQI KO`RINISH</a>
+                    <a href="#ichki">ICHKI KO`RINISH</a>
+                    <a href="#texik">TEXNIK XUSUSIYATLARI</a>
+                    <a href="#modifikation">MODIFIKATSIYALAR</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="tashqi">
+        <div class="contain">
+            <div class="t-title">
+                <p>TASHQI KO`RINISH</p>
+            </div>
+            <div class="t-text">
+                <p style="text-align: justify">Avtomobilning old optikasi oldinga chiqib turadi, oldingi qanotlarining bir qismini o‘z ichiga
+                oladi. Bamperning egilgan chiziqlari avtomobilga go‘zal shaklini baxsh etadi. Bamperning pastki
+                qismida yon tomonlarida tumanga qarshi chiroqlari va kunduzgi yurish chiroqlari joylashgan.
+                Kapotning qavariq shakli bamperning qismi shaklini takrorlaydi, Nexia oldingi qismini shaklini
+                a’lo namoyon qiladi. Uning oldingi qanotlarida takroriy burilish ko‘rsatkichlari joylashgan.
+                Katta orqa gabarit chiroqlari istalgan ob-havo sharoitida yaxshi ko‘rinadi. Yonilg‘i bakining
+                hajmi 45 l., bu esa bunday avtomobil uchun kam bo‘lmaydi. Yukxonasining hajmi odatdagi holatida
+                    400 l. va orq o‘rindiqlarini yig‘ib olgan holatida 900 l. bo‘ladi.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ichki">
+        <div class="contain">
+            <div class="i-title">
+                <p>ICHKI KO`RINISH</p>
+            </div>
+            <div class="i-text">
+                <p style="text-align: justify">Avtomobilning katta oldingi paneli dumaloq shaklda qilingan. Panelning o‘rtasida oldingi qismida
+                    havo yetkazish uchun ikkita tuynuk joylashgan. Ularning ostida chiziqli kirish uyasi, USB port
+                    bo‘lgan audio tizimi va bort kompyuteri joylashgan. Audiotizimning ostida konditsioner joylashadi.
+                    Undan pastroqda standart holatida sigaret tutatgich va kuldon bor. Yukxonani ochish tugmasi Nexia
+                    modelidagi standart to‘plamning ichida bo‘lib, haydovchiga avtomobildan chiqmaslik imkonini beradi.
+                    Asboblar paneliga spidometr, taxometr kiradi, motor haroratining datchigi va bakdagi yonilg‘ining
+                    sathi katta raqamlar bilan ko‘rsatilib, har qanday yoritishda a’lo ko‘rinadi. To‘rt simli boshqaruv
+                    ruli qo‘lda qulay joylashadi va gidrokuchaytirgich tufayli qattiq kuch bermagan holda oson buriladi,
+                    bunga qo‘shimcha afzalligi rulni har qanday haydovchiga balandligi bo‘yicha moslashtirib sozlash
+                    hisoblanadi. Nexia modelida rulning chap tomonida faralarni sozlash tizimi va taymer funksiyasi
+                    bo‘lgan orqa oynani isitish tugmasi joylashgan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tabl" id="texik">
+        <div class="contain">
+            <div class="tabl-text">
+                <p>TEXNIK XUSUSIYATLARI</p>
+            </div>
+            <table class="active">
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Dvigatel</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Slindir miqdori va joylashuvi</td>
+                    <td class="active">4 ta, Qatorda</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Ishchi hajm, sm3</td>
+                    <td class="active">1485</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Maksimal quvvat, o.k. (ayl/min)</td>
+                    <td class="active">105 ta 5800 ayl/minut</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Maksimal buruvchi moment, Hm (min)</td>
+                    <td class="active">141 ta 3800 ay/minut</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">ТUzatmalar qutisi</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Privat turi</td>
+                    <td class="active">Old</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Uzatmalar quttisi turi
+                    </td>
+                    <td class="active">5 MUQ / 6 AUQ</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Ilgak</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Old</td>
+                    <td class="active">Makferson tirgagi</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Orqa</td>
+                    <td class="active">Yarim bog'liq burish paneli</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Siquvchi disk tizimi</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Old/Orqa siquvchi disk</td>
+                    <td class="active">Diskli/Barabanli</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">O'lchamlari</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Uzunligi, mm</td>
+                    <td class="active">4327</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Eni, mm</td>
+                    <td class="active">1713</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Balandligi, mm</td>
+                    <td class="active">1505</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">G'ildirakli baza, mm</td>
+                    <td class="active">2480</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Eng kichik aylanib olish radiusi, mm</td>
+                    <td class="active">5030</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Ichki hajm</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Yukhona ko'tarilgandagi hajm/Orqa o'rindiq yotqizilganda, L</td>
+                    <td class="active">400/980</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Og'irlik</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Ruxsat etigan vazn, kg</td>
+                    <td class="active">1190/1230</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Maksimal ruxsat etilgan vazn, kg</td>
+                    <td class="active">1520/1560</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="5">Dinamika</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Maksimal tezlik, km/s</td>
+                    <td class="active">178/179</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Tezlik 0-100 km/s, sekindiga</td>
+                    <td class="active">12,2/12,3</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="5">Yoqilg'i sarfi</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Shahar ichida, L</td>
+                    <td class="active">8/9,3</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Shahar tashqarisida, L</td>
+                    <td class="active">6,5/7</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Yoqilg'i turi</td>
+                    <td class="active">AI- 91</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Yoqilg'i bak hajmi, L</td>
+                    <td class="active">45</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="tab">
+        <div class="contain">
+            <div class="tab-text">
+                <p>MODIFIKATSIYALAR</p>
+            </div>
+            <table class="activ">
+                <thead>
+                <tr>
+                    <th class="acti" style="text-align: center;">Модификация</th>
+                    <th class="act" style="text-align: center;">Описание комплектации</th>
+                </tr>
+                </thead>
+                <tbody class="acti">
+                <tr>
+                    <th style="text-align: center;" colspan="2">Nexia (1,5 L)</th>
+                </tr>
+                <tr>
+                    <td class="acti"><strong>LT M/T</strong> </td>
+                    <td class="act">кондиционер, подушка безопасности со стороны водителя и пассажира, автоматические стеклоподъемники передних и задних дверей, наружные зеркала заднего вида  с дистанционным управлением, электропривод, со складыванием, цветное, передние противотуманные фары с функцией переднего освещения в дневное время суток, наружные ручки двери под цвет кузова, дополнительные громкоговорители.</td>
+                </tr>
+                <tr>
+                    <td class="acti"><strong>LTZ A/T</strong></td>
+                    <td class="act">кондиционер, автоматическая коробка передач,  подушка безопасности со стороны водителя и пассажира, автоматические стеклоподъемники с функцией в одно касание, наружные зеркала заднего вида  с дистанционным управлением, электропривод, со складыванием, цветное, передние противотуманные фары с функцией переднего освещения в дневное время суток, наружные ручки двери под цвет кузова, дополнительные громкоговорители, дистанционное управление аудио системы руля, литой диск .
+                    </td>
+                </tr>
+                <tr>
+                    <td class="acti"><strong>LT M/T
+                        Optimum Plus </strong></td>
+                    <td class="act">кондиционер, подушка безопасности со стороны водителя и пассажира, автоматические стеклоподъемники передних и задних дверей, наружные зеркала заднего вида  с дистанционным управлением, электропривод, со складыванием, цветное, передние противотуманные фары с функцией переднего освещения в дневное время суток, наружные ручки двери под цвет кузова, дополнительные громкоговорители, кожаная отделка руля, система электронной устойчивости, система мониторинга давления шин, хромированная решетка воздуховода салона, обогрев заднего салона.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="acti"><strong>LTZ A/T
+                        Elegant Plus</strong></td>
+                    <td class="act">кондиционер, автоматическая коробка передач, подушка безопасности со стороны водителя и пассажира, автоматические стеклоподъемники с функцией в одно касание, наружные зеркала заднего вида  с дистанционным управлением, электропривод, со складыванием, цветное, передние противотуманные фары с функцией переднего освещения в дневное время суток, наружные ручки двери под цвет кузова, дополнительные громкоговорители, дистанционное управление аудио системы руля, литой диск, кожаная отделка руля, система электронной устойчивости, система мониторинга давления шин, хромированная решетка воздуховода салона, обогрев заднего салона.
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

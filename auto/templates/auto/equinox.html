@@ -1,0 +1,201 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Autoday</title>
+    <link rel="stylesheet" href="{% static 'auto/style9.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navigation">
+                    <div class="logo">
+                        <a href="#">Nicky uz</a>
+                    </div>
+                    <div class="navbar-nav">
+                        <a href="#">home</a>
+                        <a href="#autoday">autoday</a>
+                        <a href="#autobattle">autobattle</a>
+                        <a href="#autonews">autonews</a>
+                    </div>
+                </div>
+            </div>
+        </nav><!-- End of Navbar-->
+        <div class="blog">
+            <div class="contain">
+                <div class="title">
+                    <h2>AUTODAY</h2>
+                    <p>EQUINOX</p>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-img">
+                        <img src={% static 'auto/equinox.png' %} alt="">
+                    </div>
+                </div>
+                <div class="blog-button">
+                    <a href="#tashqi">TASHQI KO`RINISH</a>
+                    <a href="#ichki">ICHKI KO`RINISH</a>
+                    <a href="#texik">TEXNIK XUSUSIYATLARI</a>
+                    <a href="#modifikation">MODIFIKATSIYALAR</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="tashqi">
+        <div class="contain">
+            <div class="t-title">
+                <p>TASHQI KO`RINISH</p>
+            </div>
+            <div class="t-text">
+                <p style="text-align: justify">Yoqilgʼi idishi hajmi 59 l, 2.0 Turbo dvigatelga ega va isteʼmoli aralash siklida
+                    8,2 l/100 km tashkil qiladi. Аvtomobilning tezlashish vaqti soatiga 7,8 s dan 100 km/s gacha. Аvtomobilning
+                    tashqi qismida, salonga kalitsiz kirish, panoramali lyuk, eshik va yukxona boʼlimining elektruzatmasi, svetodiodli
+                    orqa va old faralar. Isitiladigan va elektrbukiladign oynalar.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ichki">
+        <div class="contain">
+            <div class="i-title">
+                <p>ICHKI KO`RINISH</p>
+            </div>
+            <div class="i-text">
+                <p style="text-align: justify">Klassik holatda yukxona hajmi 670 litrni tashkil etadi va orqa oʼrindiqlar yigʼilganida
+                    haydovchi 1627 litrga teng yukxona sigʼimiga ega boʼladi.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tabl" id="texik">
+        <div class="contain">
+            <div class="tabl-text">
+                <p>TEXNIK XUSUSIYATLARI</p>
+            </div>
+            <table class="active">
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Двигатель</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Количество цилиндров</td>
+                    <td class="active">4 в ряд </td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Рабочий объем, см3</td>
+                    <td class="active">1998</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Максимальная мощность, л.с.</td>
+                    <td class="active">260 л.с. при 5500 об/мин</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Крутящий момент, Н*м</td>
+                    <td class="active">353 при 2000-5300 об/мин</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Трансмиссия</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Тип привода</td>
+                    <td class="active">Передний</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Тип трансмиссии</td>
+                    <td class="active">Автоматическая, 9-ти ступенчатая</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Подвеска</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Передняя</td>
+                    <td class="active">Стойка Макферсона</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Задняя</td>
+                    <td class="active">Независимая четырехрычажная</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Внутренние размеры</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Объем багажного отделения при поднятых/сложенных задних сиденьях, л</td>
+                    <td class="active">670-1627</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Масса</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Снаряженная масса, кг</td>
+                    <td class="active">1710</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Максимально разрешенная масса, кг</td>
+                    <td class="active">2160</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="5">Динамика</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Максимальная скорость, км/ч</td>
+                    <td class="active">210</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Разгон 0-100 км/ч, секунд</td>
+                    <td class="active">7,5</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="5">Расход топлива</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Городской цикл, л</td>
+                    <td class="active">10,9</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Смешанный цикл, л</td>
+                    <td class="active">6,8/8,2</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Тип и марка топлива</td>
+                    <td class="active">АИ - 91</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Объем топливного бака, л</td>
+                    <td class="active">55</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="tab">
+        <div class="contain">
+            <div class="tab-text">
+                <p>MODIFIKATSIYALAR</p>
+            </div>
+            <table class="activ">
+                <thead>
+                <tr>
+                    <th class="acti" style="text-align: center;">Модификация</th>
+                    <th class="act" style="text-align: center;">Описание комплектации</th>
+                </tr>
+                </thead>
+                <tbody class="acti">
+                <tr>
+                    <th style="text-align: center;" colspan="2"> Equinox </th>
+                </tr>
+                <tr>
+                    <td class="acti"><strong> 2,0L Тurbo LT 9АT  </strong> -- </td>
+                    <td class="act">Подушки безопасности 6 шт., Антиблокировочная система тормозов (ABS), Система курсовой устойчивости (ESP), Система помощи при старте на подъеме (HAC), Система помощи при спуске с горы, Система контроля давления в шинах, Камера заднего вида, Задние парктроники, Панорамная крыша с люком, Климат контроль, Круиз контроль, Подогрев передних сидений, Обогрев наружных зеркал, Без ключевой доступ в салон, Электронный стояночный тормоз, Запуск двигателя кнопкой, Датчик света, Электропривод водительского сидения, Аудиосистема с 8" экраном, Цветной дисплей в панели приборов, Управление аудиосистемой на руле, Светодиодные ходовые огни, Легко сплавные диски с 18' шинами.</td>
+                </tr>
+
+                </tbody>
+            </table>
+
+
+
+

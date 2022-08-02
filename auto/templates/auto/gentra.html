@@ -1,0 +1,247 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Autoday</title>
+    <link rel="stylesheet" href="{% static 'auto/style6.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navigation">
+                    <div class="logo">
+                        <a href="#">Nicky uz</a>
+                    </div>
+                    <div class="navbar-nav">
+                        <a href="#">home</a>
+                        <a href="#autoday">autoday</a>
+                        <a href="#autobattle">autobattle</a>
+                        <a href="#autonews">autonews</a>
+                    </div>
+                </div>
+            </div>
+        </nav><!-- End of Navbar-->
+        <div class="blog">
+            <div class="contain">
+            <div class="title">
+                <h2>AUTODAY</h2>
+                <p>GENTRA</p>
+            </div>
+            <div class="blog-content">
+                <div class="blog-img">
+                    <img src={% static 'auto/gentra.png' %} alt="">
+                </div>
+            </div>
+            <div class="blog-button">
+                <a href="#tashqi">TASHQI KO`RINISH</a>
+                <a href="#ichki">ICHKI KO`RINISH</a>
+                <a href="#texik">TEXNIK XUSUSIYATLARI</a>
+                <a href="#modifikation">MODIFIKATSIYALAR</a>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="tashqi">
+        <div class="contain">
+            <div class="t-title">
+                <p>TASHQI KO`RINISH</p>
+            </div>
+            <div class="t-text">
+                <p style="text-align: justify">Avtomobilning tashqi ko‘rinishini italiyalik mutaxassislar yaratgani tufayli, u juda kuchli
+                    taassurot tug‘diradi. Bu modelning asosiy xususiyati silliq, dumaloqlashuvchi chiziqlardir, ular tufayli mashina aslidagi
+                    holatiga nisbatan ancha kattaroq va keng hajmli bo‘lib ko‘rinadi. Bunda, uning tashqi ko‘rinishi ancha qimmat toifadagi
+                    avtomobillarga xos bo‘lgan jo‘shqinlik va ulug‘vorlik bor. Tashqi ko‘rinishining barcha detallari, 15-dyuymli disklardan
+                    tortib yon oynalarining o‘ziga xos shakligacha, a’lo sifati va Italiyaga xos nafisligi bilan ajralib turadi.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ichki">
+        <div class="contain">
+        <div class="i-title">
+            <p>ICHKI KO`RINISH</p>
+        </div>
+        <div class="i-text">
+            <p style="text-align: justify">Chevrolet Lacetti ning ichki ko‘rinishi sodda ko‘rinuvchi hashamatdorligi bilan ajralib turadi.
+                Bir xil rang tuslariga ega bo‘lgan sifatli bezatish materiallari shinam muhitni yaratadi, va salonning hajmini kengaytirib ko‘rsatadi.
+                Barcha zarur boshqarish elementlari bo‘lgan oqilona jamlangan panel, teri qoplangan qulay rul, chiroq bilan yoritiladigan ichki bo‘limi,
+                konditsioner, o‘ziga xos uslubda yasalgan spidometr – mashinaning a’lo butlanishi va jihozlanishining namoyon bo‘ladigan kichik bir qismidir.
+                Safarda qulay yurish uchun avtomobil tirgak osti bokslari, tokchalar, axlat tashlanadigan cho‘ntaklar va tagliklar bilan jihozlangan.
+                Old oynasidan a’lo ko‘rish imkoniyati sababli unda yurish xavfsiz bo‘ladi, motorning shovqinsiz ishlashi va shovqindan yaxshi izolyatsiyasi
+                esa unda yurishni yanada qulayroq qiladi.
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <section class="tabl" id="texik">
+        <div class="contain">
+        <div class="tabl-text">
+            <p>TEXNIK XUSUSIYATLARI</p>
+        </div>
+        <table class="active">
+            <tr class="active">
+                <th class="active" style="text-align: center;" colspan="2">Dvigatel</th>
+            </tr>
+            <tr class="active">
+                <td class="active">Slindir miqdori va joylashuvi</td>
+                <td class="active">4 ta, Qatorda</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Ishchi hajm, sm3</td>
+                <td class="active">1485</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Maksimal quvvat, o.k. (ayl/min)</td>
+                <td class="active">107 при 5800 об/мин</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Maksimal buruvchi moment, Hm (min)</td>
+                <td class="active">141(3800) (ayl/min)</td>
+            </tr>
+            <tr class="active">
+                <th class="active" style="text-align: center;" colspan="2">Uzatmalar qutisi</th>
+            </tr>
+            <tr class="active">
+                <td class="active">Privat turi</td>
+                <td class="active">Old</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Uzatmalar quttisi turi</td>
+                <td class="active">5 MUQ / 6 AUQ</td>
+            </tr>
+            <tr class="active">
+                <th class="active" style="text-align: center;" colspan="2">Ilgak</th>
+            </tr>
+            <tr class="active">
+                <td class="active">Old</td>
+                <td class="active">Makferson tirgagi</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Orqa</td>
+                <td class="active">Mustaqil ko'p yo'nalishli</td>
+            </tr>
+            <tr class="active">
+                <th class="active" style="text-align: center;" colspan="2">Siquvchi disk tizimi</th>
+            </tr>
+            <tr class="active">
+                <td class="active">Old/Orqa siquvchi disk</td>
+                <td class="active">Diskli/Barabanli</td>
+            </tr>
+            <tr class="active">
+                <th class="active" style="text-align: center;" colspan="2">O'lchamlari</th>
+            </tr>
+            <tr class="active">
+                <td class="active">Uzunligi, mm</td>
+                <td class="active">4515</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Eni, mm</td>
+                <td class="active">1725</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Balandligi, mm</td>
+                <td class="active">1445</td>
+            </tr>
+            <tr class="active">
+                <td class="active">G'ildirakli baza, mm</td>
+                <td class="active">2600</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Eng kichik aylanib olish radiusi, mm</td>
+                <td class="active">5020</td>
+            </tr>
+            <tr class="active">
+                <th class="active" style="text-align: center;" colspan="2">Ichki hajm</th>
+            </tr>
+            <tr class="active">
+                <td class="active">Yukhona ko'tarilgandagi hajm/Orqa o'rindiq yotqizilganda, L</td>
+                <td class="active">405/1225</td>
+            </tr>
+            <tr class="active">
+                <th class="active" style="text-align: center;" colspan="2">Og'irlik</th>
+            </tr>
+            <tr class="active">
+                <td class="active">Ruxsat etigan vazn, kg</td>
+                <td class="active">1245/1300</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Maksimal ruxsat etilgan vazn, kg</td>
+                <td class="active">1660/1680</td>
+            </tr>
+            <tr class="active">
+                <th class="active" style="text-align: center;" colspan="5">Dinamika</th>
+            </tr>
+            <tr class="active">
+                <td class="active">Maksimal tezlik, km/s</td>
+                <td class="active">180/179</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Tezlik 0-100 km/s, sekindiga</td>
+                <td class="active">13/13,1</td>
+            </tr>
+            <tr class="active">
+                <th class="active" style="text-align: center;" colspan="5">Yoqilg'i sarfi</th>
+            </tr>
+            <tr class="active">
+                <td class="active">Shahar ichida, L</td>
+                <td class="active">8,5/10</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Shahar tashqarisida, L</td>
+                <td class="active"> 7/7,5</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Yoqilg'i turi</td>
+                <td class="active">АИ - 91</td>
+            </tr>
+            <tr class="active">
+                <td class="active">Yoqilg'i bak hajmi, L</td>
+                <td class="active">60</td>
+            </tr>
+        </table>
+        </div>
+    </section>
+
+    <section class="tab">
+        <div class="contain">
+        <div class="tab-text">
+            <p>MODIFIKATSIYALAR</p>
+        </div>
+        <table class="activ">
+            <thead>
+            <tr>
+                <th class="acti" style="text-align: center;">Модификация</th>
+                <th class="act" style="text-align: center;">Описание комплектации</th>
+            </tr>
+            </thead>
+            <tbody class="acti">
+            <tr>
+                <th style="text-align: center;" colspan="2">Lacetti (1,5 L)</th>
+            </tr>
+            <tr>
+                <td class="acti"><strong>SX М/Т</strong></td>
+                <td class="act">кондиционер, аудиосистема c bluetooth, антиблокировочная тормозная система, крепление детских сидений, стальной диск, подушка безопасности со стороны водителя и пассажира, передние противотуманные фары с функцией переднего освещения в дневное время суток, обогрев заднего салона.</td>
+            </tr>
+            <tr>
+                <td class="acti"><strong>SX М/Т CNG</strong></td>
+                <td class="act">кондиционер, аудиосистема c bluetooth, антиблокировочная тормозная система, натяжители ремней безопасности задних сидений, крепление детских сидений, стальной диск, газобаллонное оборудование, подушка безопасности со стороны водителя и пассажира, передние противотуманные фары с функцией переднего освещения в дневное время суток, обогрев заднего салона.</td>
+            </tr>
+            <tr>
+                <td class="acti"><strong>CDX A/T Elegant Plus</strong></td>
+                <td class="act">кондиционер, автоматическая коробка передач аудиосистема c bluetooth, антиблокировочная тормозная система, натяжители ремней безопасности задних сидений, крепление детских сидений, литой диск, подушка безопасности со стороны водителя и пассажира, дополнительные громкоговорители, дистанционное управление аудио системы руля, передние противотуманные фары с функцией переднего освещения в дневное время суток, наружные зеркала заднего вида с функцией обогрева, с дистанционным управлением, электропривод, с ручным складыванием, цветное, отделка частей интерьера черного цвета, люк электрический, функция контроля яркости освещения интерьера, кожаная отделка руля, обогрев сидений, обогрев лобового стекла, обогрев заднего салона.</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </section>
+
+
+
+</body>
+</html>

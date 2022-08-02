@@ -1,0 +1,201 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Autoday</title>
+    <link rel="stylesheet" href="{% static 'auto/style10.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navigation">
+                    <div class="logo">
+                        <a href="#">Nicky uz</a>
+                    </div>
+                    <div class="navbar-nav">
+                        <a href="#">home</a>
+                        <a href="#autoday">autoday</a>
+                        <a href="#autobattle">autobattle</a>
+                        <a href="#autonews">autonews</a>
+                    </div>
+                </div>
+            </div>
+        </nav><!-- End of Navbar-->
+        <div class="blog">
+            <div class="contain">
+                <div class="title">
+                    <h2>AUTODAY</h2>
+                    <p>TRAVERSE</p>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-img">
+                        <img src={% static 'auto/traverse2.png' %} alt="">
+                    </div>
+                </div>
+                <div class="blog-button">
+                    <a href="#tashqi">TASHQI KO`RINISH</a>
+                    <a href="#ichki">ICHKI KO`RINISH</a>
+                    <a href="#texik">TEXNIK XUSUSIYATLARI</a>
+                    <a href="#modifikation">MODIFIKATSIYALAR</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="tashqi">
+        <div class="contain">
+            <div class="t-title">
+                <p>TASHQI KO`RINISH</p>
+            </div>
+            <div class="t-text">
+                <p style="text-align: justify">318 ot kuchiga ega Chevrolet Traverse dvigateli murosasiz ishlash imkonini beradi.
+                    Аvtomobil 7,8 soniyada 100 km / soat tezlikka chiqadi. Intellektual toʼliq boshqaruv tizimi sirpanchiq yoki
+                    qorli yoʼllarda avtomobilni boshqaruvini kuchaytiradi va old uzatmani tanlash qoʼshimcha yoqilgʼi tejashni
+                    taʼminlaydi. Bunga qoʼshimcha ravishda, siz oldingi yoki toʼliq uzatmaga harakat vaqtida ham oʼtishingiz mumkin.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ichki">
+        <div class="contain">
+            <div class="i-title">
+                <p>ICHKI KO`RINISH</p>
+            </div>
+            <div class="i-text">
+                <p style="text-align: justify">Chevrolet Traverse oʼzgaruvchan elektr boshqaruvi tizimi va besh richagli mustaqil
+                    orqa osma bilan jihozlangan. Buning yordamida Traverse sizga yoʼlni yaxshiroq his qilish imkonini beradigan
+                    ishonchli boshqaruvni taʼminlaydi.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tabl" id="texik">
+        <div class="contain">
+            <div class="tabl-text">
+                <p>TEXNIK XUSUSIYATLARI</p>
+            </div>
+            <table class="active">
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Двигатель</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Количество цилиндров</td>
+                    <td class="active"> 6, V-образное </td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Рабочий объем, см3</td>
+                    <td class="active">3564</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Максимальная мощность, л.с.</td>
+                    <td class="active">234 кВт/318 л.с.при 6800 об/мин</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Крутящий момент, Н*м</td>
+                    <td class="active">350 при 5500 об/мин</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Трансмиссия</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Тип привода</td>
+                    <td class="active">Передний</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Тип трансмиссии</td>
+                    <td class="active">Автоматическая 9-ступенчатая Hydra-Matic 9T65</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Подвеска</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Передняя</td>
+                    <td class="active">MacPherson, независимая</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Задняя</td>
+                    <td class="active">5-рычажная независимая</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Внутренние размеры</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Объем багажного отделения при поднятых/сложенных задних сиденьях, л</td>
+                    <td class="active">651-2781</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Масса</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Снаряженная масса, кг</td>
+                    <td class="active">2147 / 2183</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Максимально разрешенная масса, кг</td>
+                    <td class="active">2800</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="5">Динамика</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Максимальная скорость, км/ч</td>
+                    <td class="active">190 (LT) / 210 (Premier)</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Разгон 0-100 км/ч, секунд</td>
+                    <td class="active">7,6</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="5">Расход топлива</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Городской цикл, л</td>
+                    <td class="active">13,6</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Смешанный цикл, л</td>
+                    <td class="active">9,4/10,0</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Тип и марка топлива</td>
+                    <td class="active">АИ - 95</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Объем топливного бака, л</td>
+                    <td class="active">98</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="tab">
+        <div class="contain">
+            <div class="tab-text">
+                <p>MODIFIKATSIYALAR</p>
+            </div>
+            <table class="activ">
+                <thead>
+                <tr>
+                    <th class="acti" style="text-align: center;">Модификация</th>
+                    <th class="act" style="text-align: center;">Описание комплектации</th>
+                </tr>
+                </thead>
+                <tbody class="acti">
+                <tr>
+                    <th style="text-align: center;" colspan="2"> Traverse  </th>
+                </tr>
+                <tr>
+                    <td class="acti"><strong> Premier AT </strong> -- </td>
+                    <td class="act">Подушки безопасности, Антиблокировочная система тормозов (ABS), Система курсовой устойчивости (ESP), Система помощи при старте на подъеме (HAC), Система помощи при спуске с горы, Система контроля давления в шинах, Камера заднего вида, Камера кругового обзора, Задние парктроники, Передние парктроники, Система контроля дистанции до впередиидущего автомобиля, Система экстренного торможения автомобиля, Ассистент удержания автомобиля на полосе движения, Система обнаружения пешеходов, Предупреждение об а/м движущемся поперечным курсом сзади, Панорамная крыша с люком, Климат контроль, Круиз контроль, Подогрев передних сидений, Подогрев задних сидений, Вентиляций передних сидений, Подогрев руля, Бесключевой доступ в салон, Сидения с кожаной отделкой, Сидения с отделкой перфорированной кожей, Отделка рукоятки КПП кожей, Электронный стояночный тормоз, Запуск двигателя кнопкой, Датчик света, Электропривод водительского сидения, Электропривод сидения пассажира, Беспроводное зарядное устройство, Электропривод багажника, Функция открывания багажника "свободные руки", Аудиосистема с 8" экраном, Акустическая система премиум класса, Цветной дисплей в панели приборов, Автоматическое переключение дальнего света фар, Светодиодные ходовые огни, Светодиодная задняя оптика, Легко сплавные диски с шинами 20"Дюйм".</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
+

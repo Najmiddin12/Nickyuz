@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bosh sahifa</title>
+    <link rel="stylesheet" href="{% static 'auto/styl3.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+<form method="post">
+    {% csrf_token %}
+<div class="row">
+    <div class="contact-form reveal">
+        <h3>Sign in</h3>
+        <div class="input-box">
+            <i class="fa fa-user"></i>
+            <input type="text" name="username" placeholder="Username">
+        </div>
+        <div class="input-box">
+            <i class="fa fa-user"></i>
+            <input type="text" list="who" name="who" placeholder="Who">
+            <datalist id="who">
+                <option name="{{ who.seller }}" value="seller">
+                <option name="{{ who.buyer }}" value="buyer">
+            </datalist>
+        </div>
+        <div class="input-box">
+            <i class="fas fa-key"></i>
+            <input type="text" name="password" placeholder="Password">
+        </div>
+        <div class="input-box">
+            <input type="submit" class="send-btn" value="Sign in">
+        </div>
+    </div>
+</div>
+    </form>
+</body>
+</html>

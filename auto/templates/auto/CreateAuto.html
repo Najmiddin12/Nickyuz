@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bosh sahifa</title>
+    <link rel="stylesheet" href="{% static 'auto/style3.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="row">
+        <div class="contact-form reveal">
+            <h3>Create Auto</h3>
+            <div class="input-box">
+                <i class="fas fa-car"></i>
+                <input type="text" name="brand" placeholder="Brand">
+            </div>
+            <div class="input-box">
+                <i class="fas fa-car"></i>
+                <input type="text" name="model" placeholder="Model">
+            </div>
+            <div class="input-bo">
+                <i class="fas fa-image"></i>
+                <div class="image">
+                    <span>Rasmni tanlang</span>
+                    <input type="file" class="hide_file" name="image" multiple placeholder="Image">
+                </div>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-calendar-alt"></i>
+                <input type="text" name="year" placeholder="Year">
+            </div>
+            <div class="input-box">
+                <i class="fas fa-chart-area"></i>
+                <input type="text" name="mileage" placeholder="Mileage: e.g. 1000 km">
+            </div>
+            <div class="input-box">
+                <i class="fas fa-dollar-sign"></i>
+                <input type="text" name="price" placeholder="Price: in dollar">
+            </div>
+            <div class="input-box">
+                <input type="submit" class="send-btn" value="Create">
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,199 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Autoday</title>
+    <link rel="stylesheet" href="{% static 'auto/style11.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navigation">
+                    <div class="logo">
+                        <a href="#">Nicky uz</a>
+                    </div>
+                    <div class="navbar-nav">
+                        <a href="#">home</a>
+                        <a href="#autoday">autoday</a>
+                        <a href="#autobattle">autobattle</a>
+                        <a href="#autonews">autonews</a>
+                    </div>
+                </div>
+            </div>
+        </nav><!-- End of Navbar-->
+        <div class="blog">
+            <div class="contain">
+                <div class="title">
+                    <h2>AUTODAY</h2>
+                    <p>TRAILBLAZER</p>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-img">
+                        <img src={% static 'auto/trailblazer.png' %} alt="">
+                    </div>
+                </div>
+                <div class="blog-button">
+                    <a href="#tashqi">TASHQI KO`RINISH</a>
+                    <a href="#ichki">ICHKI KO`RINISH</a>
+                    <a href="#texik">TEXNIK XUSUSIYATLARI</a>
+                    <a href="#modifikation">MODIFIKATSIYALAR</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="tashqi">
+        <div class="contain">
+            <div class="t-title">
+                <p>TASHQI KO`RINISH</p>
+            </div>
+            <div class="t-text">
+                <p style="text-align: justify">Dvigatelining hajmi 3,6 litr, 275 ot kuchi hamda toʼliq uzatma avtomobil egasiga oʼzi
+                    va oilasini toʼliq himoyalanganlik hissini beradi. Dvigatel 6 pogʼonali avtomat uzatma bilan jihozlangan, bu esa
+                    avtomobilning butun dinamikasini his qilish imkonini beradi - soatiga 100 km tezlik olishi 9,1 soniyani tashkil
+                    etadi. Аralash sikl uchun yoqilgʼi sarfi 100 km uchun 9,7 litrni tashkil qiladi. Oltita xavfsizlik yostigʼi bilan
+                    bir qatorda, u kunduzgi chiroqlar, elektronik barqarorlikni boshqarish, shinalar bosimi signallari hamda boshqa
+                    koʼp qulayliklarga ega.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ichki">
+        <div class="contain">
+            <div class="i-title">
+                <p>ICHKI KO`RINISH</p>
+            </div>
+            <div class="i-text">
+                <p style="text-align: justify">Boshqaruvga qoʼshimcha tarzda audio tizim va kruiz nazorati bilan birga ushbu yoʼltanlamas
+                    qiyaliklardan pastga tushadigan yordamchi tizim, yomgʼir sezgich, bort kompyuteri, salonga kalitsiz kirish hamda
+                    Chevrolet MyLink taklif qiladi. Trailblazer eng soʼnggi xavfsizlik tizimlari bilan jihozlangan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tabl" id="texik">
+        <div class="contain">
+            <div class="tabl-text">
+                <p>TEXNIK XUSUSIYATLARI</p>
+            </div>
+            <table class="active">
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Двигатель</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Количество цилиндров</td>
+                    <td class="active">6, V-образная</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Рабочий объем, см3</td>
+                    <td class="active">3564</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Максимальная мощность, л.с.</td>
+                    <td class="active">275 л.с. при 6400 об/мин</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Крутящий момент, Н*м</td>
+                    <td class="active">350 при 3700 об/мин</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Трансмиссия</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Тип привода</td>
+                    <td class="active">Передний</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Тип трансмиссии</td>
+                    <td class="active">Автоматическая, 6-ти ступенчатая</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Подвеска</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Передняя</td>
+                    <td class="active">независимая на двойных рычагах</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Задняя</td>
+                    <td class="active">зависимая с продольными рычагами</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Внутренние размеры</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Объем багажного отделения при поднятых/сложенных задних сиденьях, л</td>
+                    <td class="active">235-1830</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="2">Масса</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Снаряженная масса, кг</td>
+                    <td class="active">-</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Максимально разрешенная масса, кг</td>
+                    <td class="active">2705</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="5">Динамика</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Максимальная скорость, км/ч</td>
+                    <td class="active">180</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Разгон 0-100 км/ч, секунд</td>
+                    <td class="active">9,1</td>
+                </tr>
+                <tr class="active">
+                    <th class="active" style="text-align: center;" colspan="5">Расход топлива</th>
+                </tr>
+                <tr class="active">
+                    <td class="active">Городской цикл, л</td>
+                    <td class="active">11,8</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Смешанный цикл, л</td>
+                    <td class="active">8,6/9,7</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Тип и марка топлива</td>
+                    <td class="active">АИ - 91</td>
+                </tr>
+                <tr class="active">
+                    <td class="active">Объем топливного бака, л</td>
+                    <td class="active">80</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="tab">
+        <div class="contain">
+            <div class="tab-text">
+                <p>MODIFIKATSIYALAR</p>
+            </div>
+            <table class="activ">
+                <thead>
+                <tr>
+                    <th class="acti" style="text-align: center;">Модификация</th>
+                    <th class="act" style="text-align: center;">Описание комплектации</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th style="text-align: center;" colspan="2"> Trailblazer </th>
+                </tr>
+                <tr>
+                    <td class="acti"><strong> LTZ 6АT </strong> -- </td>
+                    <td class="act">Радиаторная решетка под цвет кузова с хромированным молдингом, Диски алюминиевые R18 х 7.5, design 3, Наружное зеркало заднего вида с электрическим управлением, автоматическим складыванием, боковым повторителем, хромированный, Наружная ручка под цвета кузова с хромированной отделкой, Хромированные молдинги боковых стекл, Кожаная отделка рулевого колеса, c регулировкой по вылету и с функцией управление с кнопками аудиосистемой и круиз-контролем, Передняя консоль с подлокотником, Кожаная отделка интерьера, уровень 1, Цвет интерьера – jet black/shale, Хромированная внутренняя ручка двери, Автоматическая регулировка водительского сиденья по 6 направлениям, Механическая регулировка пассажирского сиденья по 4 направлениям, Подушки безопасности водителя, пассажира, боковые и на крыше 6 шт., Автоматическая регулировка бокового стекла с водительской стороны,функция экспресс подъем/опускание, Автоматическая регулировка бокового стекла c пассажирской стороны, экспресс подъем/опускание, Кнопка выбора режимов работы привода (4WD), Ручка стоянгочного тормоза, хромированная, Пакет курильщика - пепельница и прикуриватель, Электронное управления системой воздушного кондиционирования, Радио, уровень HMI, улучшенная связь встроенная, Зеркало заднего вида с автоматическим затемнением, Ячейка для очков, Солнцезащитный козырек водителя и пассажира со встроенными зеркалами с подсветкой.</td>
+                </tr>
+
+                </tbody>
+            </table>
